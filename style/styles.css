@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin:0;
+}
+
+
+
+.container {
+    width:80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .logo img {
+    width: 185px;
+    height: 50px;
+}
+
+.container .logo{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    width: 185px;
+    height: 50px;
+}
+.mavzu{
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    width: 497px;
+}
+.mavzu p{
+    color: #222;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 21px */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.button{
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #DE2E54;
+    background: #DE2E54;
+}
+.button button{
+  border-radius:10px;
+  background-color:#DE2E54;
+  border: none;
+  cursor: pointer;
+  
+}
+.button button a{
+    text-decoration: none;
+    color:#ffff;
+}
+.urta{
+    width: 1366px;
+    background:#0EB4C1;
+    height: 500px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.matn{
+    width: 500px;
+    margin-top: 60px;
+}
+.matn .tabiy p{
+    color: #FFF;
+    /* Big heading */
+    font-family: Open Sans Condensed;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 43.2px */
+}
+.rasm img{
+    width: 400px;
+    height: 500px;
+}
+.matn button {
+    border-radius:5px;
+    background-color:#DE2E54;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    width: 180px;
+}
+.matn button a{
+    text-decoration: none;
+    color:#ffff;
+}
+.matn .p p{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+.matn .p{
+    width: 400px;
+}
